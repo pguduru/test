@@ -14,21 +14,21 @@ class First:
         i = 0
         for n in self.numbers:
             i += n
-        return n
+        return i
 
     def getlow(self):
         low = self.numbers[0]
         for n in self.numbers:
             if n < low:
                 low = n
-        return n
+        return low
 
     def gethigh(self):
         high = self.numbers[0]
 	for n in self.numbers:
             if n > high:
 		high = n
-	return n
+	return low
 
     
                 
